@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'PartialSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/PartialSansKR-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container { /*전체적인 좌우 마진*/
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* 로그인 폼 스타일 */
+.user-id,
+.user-password {
+    margin-top: 30px;
+}
+
+.input-user-id,
+.input-user-password {
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #EAEAEA;
+    width: 90%; /*더 고민할 필요가 있음*/
+}
+
+.check-password {
+    margin: 0, 20px, 0, 20px;
+}
+
+/*회원가입 / 로그인 스타일*/
+.login-container {
+    margin: 20px, 0, 20px, 0;
+}
+
+.login-btn {
+    /*스타일*/
+    width: 90%;
+    padding: 15px;
+    background-color: #F76707;
+    color: #ffffff;
+    border-radius: 10px;
+    border-style: none;
+    /*폰트*/
+    font-size: 16px;
+    font-weight: bold;
+    /*포지션*/
+    position: fixed;
+    bottom: 20px;
+}

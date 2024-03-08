@@ -3,42 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="./css/login.css">
     <title>로그인</title>
 </head>
 <body>
     <!--타이틀-->
     <div class="title-container">
-        <div class="circle"></div>
+        <img src="/assets/images/Intersect.svg">
         <h1>꿈이야,<br>생시야?</h1>
         <p>LOGIN</p>
     </div>
 
-    <!--로그인 폼-->
     <div class="container">
-        <!--action에 경로 추가-->
-        <form action="#" method="post">
-            <!--사용자 아이디 입력-->
-            <div class="user-id">
-                <label for="userid">아이디를 입력해 주세요.</label> 
-                <input type="text" id="userid", class="input-user-id" placeholder="아이디를 입력해 주세요."> 
-            </div>
+        <!--로그인 폼-->
+        <div class="login-container">
+            <!--action에 경로 추가-->
+            <form action="#" method="post">
+                <!--사용자 아이디 입력-->
+                <div class="user-id">
+                    <label for="userid">아이디를 입력해 주세요.</label> 
+                    <input type="text" id="userid", class="input-user-id" placeholder="아이디를 입력해 주세요."> 
+                </div>
 
-            <!--사용자 비밀번호 입력-->
-            <div class="user-password"> 
-                <label for="userpw">비밀번호를 입력해 주세요.</label>
-                <input type="password" id="userpw", class="input-user-password" placeholder="비밀번호를 입력해 주세요.">
-            </div>
-        </form>
-        
-         <!--비밀번호 표시하기-->
-         <input type="checkbox" class="check-password" onchange="togglePassword()"> 비밀번호 표시
-    </div>
+                <!--사용자 비밀번호 입력-->
+                <div class="user-password"> 
+                    <label for="userpw">비밀번호를 입력해 주세요.</label>
+                    <input type="password" id="userpw", class="input-user-password" placeholder="비밀번호를 입력해 주세요.">
+                </div>
+            </form>
+            
+            <!--비밀번호 표시하기-->
+            <input type="checkbox" class="check-password" onchange="togglePassword()"> 비밀번호 표시
+        </div>
 
-    <!--회원가입 / 로그인 버튼-->
-    <div class="button-container">
-        <a href="./join.html">처음이신가요? 회원가입하기</a>
-        <button type="button" class="login-btn" onclick="submitLogin()">로그인</button><!--홈 화면 이동 로직 작성하기-->
+        <!--회원가입 / 로그인 버튼-->
+        <div class="button-container">
+            <a href="./join.html" style="display: block; text-align: center;">처음이신가요? 회원가입하기</a><br>
+            <button type="button" class="login-btn" onclick="submitLogin()">로그인</button><!--홈 화면 이동 로직 작성하기-->
+        </div>
     </div>
 
     <script src="../js/login.js"></script>
