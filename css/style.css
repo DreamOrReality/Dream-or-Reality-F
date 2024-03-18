@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin: 15px;
+}
+
+header h6 {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+/* 각 섹션 별 패딩 부여 */
+section {
+    padding: 20px;
+    border: 1px solid #EAEAEA;
+}
+
+section .user-post {
+    margin-bottom: 10px;
+    /* font */
+    font-size: 16px;
+    font-weight: 200;
+}
+
+section article {
+    border: 1px solid #2AC1BC;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+section .articles {
+    display: flex;
+    gap: 10px;
+}
+
+section .post-title {
+    font-weight: 200;
+}
+
+section .tag {
+    padding: 3px;
+    border: 1px solid #EAEAEA;
+    border-radius: 4px;
+    color: #8E8E8F;
+    background-color: #FAFBFC;
+    text-align: center;
+    font-size: 10px;
+    width: 60px; /* width 더 고민해보기 */
+    margin: 5px 0;
+}
+
+section article .period {
+    margin: 10px 0;
+}
+
+section article .post-content-title {
+    color: #8E8E8F;
+    font-size: 8px;
+    margin-bottom: 3px;
+}
+
+section article .post-content {
+    font-size: 10px;
+}
