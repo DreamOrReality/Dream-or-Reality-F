@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 15px;
+}
+
+header h6 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+article {
+    border: 1px solid #EAEAEA;
+    padding: 10px 15px 10px 15px;
+}
+
+article .study-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+article .study-title .resume-status {
+    border-radius: 20px;
+    background-color: #F76707;
+    color: #ffffff;
+    padding: 5px 8px 5px 8px;
+    font-size: 11px;
+}
+
+article .study-title h6 {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+article p {
+    color: #8E8E8F;
+    font-size: 11px;
+    margin: 10px 0 10px 0;
+}
+
+article .tag-content .tag {
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #FAFBFC;
+    color: #8E8E8F;
+    font-size: 10px;
+    width: 55px;
+}
+
+article .study-info .user {
+    color: #B0B0B0;
+    font-size: 7px;
+    margin-top: 10px;
+}
